@@ -1,0 +1,41 @@
+Student = 
+{
+id, name, email
+1, 'Alex', 'alex@carleton.ca'
+2, 'John', 'john@carleton.ca'
+3, 'Mo', 'mo@carleton.ca'
+}
+
+Course = 
+{
+name, hours
+'Math', 3
+'Pythics', 2
+'Network', 3
+}
+
+takes = 
+{
+id, cname
+1, 'Math'
+1, 'Pythics'
+1, 'Network'
+2, 'Network'
+3, 'Math'
+}
+
+Employee = 
+{
+    id, name, email, dept
+    1, 'Alex', 'alex@carleton.ca', Sales
+    2, 'John', 'john@carleton.ca', Finance
+    3, 'Mo', 'mo@carleton.ca', HR
+}
+
+Department = 
+{
+    dept, budget
+    Finance, 20000
+    Sales, 30000
+    IT, 40000
+}

@@ -1,0 +1,18 @@
+natural_join ( pi id,name,dept ( sigma id<2,name=='Alex' ( Employee ) ) ) ( Department )
+
+
+
+
+
+
+sigma id<3,name=='Alex' ( Student )
+
+pi id,name ( Student )
+
+left_outer_join ( Employee ) ( Department )
+
+right_outer_join ( Employee ) ( Department )
+
+natural_join ( Employee ) ( Department )
+
+natural_join ( pi id,name,dept ( sigma id<2,name=='Alex' ( Employee ) ) ) ( Department )
